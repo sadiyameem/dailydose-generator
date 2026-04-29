@@ -8,10 +8,10 @@ let fortunes = [
     "I see money in your future...it is not yours though.",
     "Enjoy yourself while you can.",
     "If you think we're going to sum up your whole life on this little piece of paper your're crazy.",
-    "When you squeeze an orange, orange juice comes out-because that's what's inaide."
+    "When you squeeze an orange, orange juice comes out-because that's what's inaide.",
 ];
 
-document.getElementsById("openCookie").addEventListener("click", function () {
+document.getElementById("openCookie").addEventListener("click", function () {
     let randomIndex = Math.floor(Math.random() * fortunes.length);
     document.getElementById("fortuneMessage").innerText = fortunes[randomIndex];
 });
