@@ -88,3 +88,21 @@ document.getElementById("getcompliment").addEventListener("click", function () {
     let randomIndex = Math.floor(Math.random() * compliment.length);
     document.getElementById("complimentMessage").innerText = compliment[randomIndex];
 });
+
+let rather = [
+    "Have the ability to see 10 minutes into the future or 150 years into the future?",
+    "Have telekinesis (the ability to move things with your mind) or telepathy (the ability to read minds)?",
+    "Be forced to sing along or dance to every single song you hear?",
+    "Lounge by the pool or on the beach?",
+    "Be in jail for five years or be in a coma for a decade?",
+    "Have everyone you know be able to read your thoughts or for everyone you know to have access to your Internet history?",
+    "Lose your sight or your memories?",
+    "Give up air conditioning and heating for the rest of your life or give up the Internet for the rest of your life?",
+    "Swim in a pool full of Nutella or a pool full of maple syrup?",
+    "Have a personal maid or a personal chef?",
+];
+
+document.getElementById("getrather").addEventListener("click", function () {
+    let randomIndex = Math.floor(Math.random() * rather.length);
+    document.getElementById("ratherMessage").innerText = rather[randomIndex];
+});
