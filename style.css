@@ -60,6 +60,22 @@ body {
     border-radius: 10px;
 }
 
+.container7 {
+    max-width: 400px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container8 {
+    max-width: 400px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 
 h1 {
     font-size: 50px;

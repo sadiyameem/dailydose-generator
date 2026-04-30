@@ -106,3 +106,41 @@ document.getElementById("getrather").addEventListener("click", function () {
     let randomIndex = Math.floor(Math.random() * rather.length);
     document.getElementById("ratherMessage").innerText = rather[randomIndex];
 });
+
+let challenge = [
+    "Eat something spicy",
+    "Hold plank 20 sec",
+    "Laugh for 15 seconds",
+    "Act like a monkey",
+    "Speak in emojis",
+    "Dance like crazy",
+    "Do a funny shout but make it really loud",
+    "Make a mystery drink and drink it entirely",
+    "10 jumping jacks",
+    "Do a celebrity impression",
+    "Sing for 10 seconds",
+];
+
+document.getElementById("getchallenge").addEventListener("click", function () {
+    let randomIndex = Math.floor(Math.random() * challenge.length);
+    document.getElementById("challengeMessage").innerText = challenge[randomIndex];
+});
+
+let fact = [
+    "Avocados are a fruit, not a vegetable.",
+    "The heart of a shrimp is located in its head.",
+    "People are more creative in the shower. ",
+    "Venus is the only planet to spin clockwise.",
+    "Competitive art used to be an Olympic sport.",
+    "Walt Disney currently holds the most Academy Awards.",
+    "There's a fruit that tastes like chocolate pudding.",
+    "Bees can recognize and differentiate human faces.",
+    "You can't hum if you hold your nose.",
+    "Bananas are technically berries.",
+    "Everyone's tongue print is different.",
+];
+
+document.getElementById("getfact").addEventListener("click", function () {
+    let randomIndex = Math.floor(Math.random() * fact.length);
+    document.getElementById("factMessage").innerText = fact[randomIndex];
+});
